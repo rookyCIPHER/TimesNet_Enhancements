@@ -1,0 +1,12 @@
+,paper,seed_2021,seed_2022,seed_2023,mean,std,Δ (pts),verdict
+EthanolConcentration,35.7,32.32,30.42,28.52,30.42,1.55,-5.28,✗ differs
+FaceDetection,68.6,69.35,67.82,68.64,68.61,0.63,0.01,✓ matches
+Handwriting,32.1,31.06,32.24,32.59,31.96,0.65,-0.14,✓ matches
+Heartbeat,78.0,74.63,74.63,76.1,75.12,0.69,-2.88,~ close
+JapaneseVowels,98.4,97.57,97.3,97.03,97.3,0.22,-1.1,~ close
+PEMS-SF,89.6,84.39,85.55,89.02,86.32,1.96,-3.28,✗ differs
+SelfRegulationSCP1,91.8,90.1,88.74,90.44,89.76,0.74,-2.04,~ close
+SelfRegulationSCP2,57.2,53.89,55.0,54.44,54.44,0.45,-2.76,~ close
+SpokenArabicDigits,99.0,98.95,98.95,99.14,99.01,0.09,0.01,✓ matches
+UWaveGestureLibrary,85.3,85.31,85.94,85.0,85.42,0.39,0.12,✓ matches
+Average,73.6,71.76,71.66,72.09,71.84,,-1.76,~ close

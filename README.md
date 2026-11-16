@@ -185,7 +185,7 @@ One notebook per dataset, all with the same structure:
 
 All other outputs generated during our runs (trained checkpoints, logs, per-run results, SHAP explanations, plots and reports) are available on Google Drive:
 
-**[Google Drive: additional results and files](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[Google Drive: additional results and files](https://drive.google.com/drive/folders/1v4l0qu6_IRFZRV9e5wOgzcC72o9HCMBJ?usp=sharing)**
 
 ---
 

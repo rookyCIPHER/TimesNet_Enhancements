@@ -53,7 +53,7 @@ The notebooks are designed for **Google Colab**.
    - a crash or a Colab disconnect does not lose any work;
    - finished runs are **skipped automatically** when you run a cell again, so you can continue where you stopped.
 
-The notebook then creates its own isolated environment automatically. Key versions:
+The notebook then creates its own isolated environment and downloads everything automatically. Key versions:
 
 | Component | Version |
 |---|---|

@@ -126,40 +126,6 @@ One notebook per dataset, all with the same structure:
 
 ## 5. Results
 
-### Summary: our numbers vs the paper
-
-**Long-term forecasting (Table 13)**: average over 4 horizons, lower is better.
-
-| Dataset | Paper MSE / MAE | Ours MSE / MAE |
-|---|---|---|
-| ETTh1 | 0.458 / 0.450 | 0.477 / 0.465 |
-| ETTh2 | 0.414 / 0.427 | 0.410 / 0.423 |
-| Exchange | 0.416 / 0.443 | 0.403 / 0.436 |
-| ILI | 2.139 / 0.931 | 2.737 / 1.043 |
-| Weather (raw file) | 0.259 / 0.287 | 0.259 / 0.285 |
-| Weather (cleaned) | – | 0.327 / 0.343 (−3.4% MSE vs raw on the same scale) |
-
-**Short-term forecasting (Table 14)**: M4, lower is better.
-
-| Group | Paper SMAPE / MASE / OWA | Ours, TSLib original (leaky) | Ours, leak-free + preprocessing fix |
-|---|---|---|---|
-| Yearly | 13.387 / 2.996 / 0.786 | 13.510 / 3.044 / 0.797 | 13.797 / 3.192 / 0.824 |
-| Quarterly | 10.100 / 1.182 / 0.890 | 10.139 / 1.192 / 0.895 | 10.295 / 1.221 / 0.913 |
-| Monthly | 12.670 / 0.933 / 0.878 | 12.763 / 0.940 / 0.884 | 12.939 / 0.955 / 0.897 |
-| Others | 4.891 / 3.302 / 1.035 | 5.014 / 3.343 / 1.055 | 5.073 / 3.431 / 1.075 |
-| **Average** | **11.829 / 1.585 / 0.851** | **11.918 / 1.604 / 0.859** | **12.108 / 1.657 / 0.880** |
-
-**Classification (Table 17)**: test accuracy (%), higher is better. Ours = leak-free 10-fold CV × 3 seeds.
-
-| Dataset | Paper | TimesNet (GELU) | TimesNet-KANB |
-|---|---|---|---|
-| EthanolConcentration | 35.7 | 25.94 ± 1.22 | 25.10 ± 0.66 |
-| Handwriting | 32.1 | 19.80 ± 1.46 | 16.99 ± 4.06 |
-| JapaneseVowels | 98.4 | 97.46 ± 0.61 | 97.68 ± 0.69 |
-| SelfRegulationSCP1 | 91.8 | 84.98 ± 2.86 | 84.89 ± 6.45 |
-| SelfRegulationSCP2 | 57.2 | 50.94 ± 3.54 | 49.94 ± 1.79 |
-| UWaveGestureLibrary | 85.3 | 84.36 ± 1.53 | 83.40 ± 1.72 |
-
 ### Detailed tables
 
 #### Long-term forecasting (Table 13)

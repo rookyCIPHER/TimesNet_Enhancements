@@ -2,11 +2,11 @@
 
 This repository reproduces the results of **TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis** (Wu et al., ICLR 2023) using the [Time-Series-Library (TSLib)](https://github.com/thuml/Time-Series-Library), fixes the data-leakage and preprocessing issues we found, and tests several enhancements, including **TimesNet-KANB** (TimesNet with a trainable KANB activation in place of GELU).
 
-| Task | Paper table | Datasets | Author |
-|---|---|---|---|
-| Long-term forecasting | Table 13 | ETTh1, ETTh2, Exchange, ILI, Weather | **Rohan** |
-| Short-term forecasting | Table 14 | M4 (Yearly, Quarterly, Monthly, Weekly, Daily, Hourly) | **Sarthak** |
-| Classification | Table 17 | EthanolConcentration, Handwriting, JapaneseVowels, SelfRegulationSCP1, SelfRegulationSCP2, UWaveGestureLibrary | **Iakovos** |
+| Task | Paper table | Datasets | Author | Student ID |
+|---|---|---|---|---|
+| Long-term forecasting | Table 13 | ETTh1, ETTh2, Exchange, ILI, Weather | *Rohan Manro* | 26112034 |
+| Short-term forecasting | Table 14 | M4 (Yearly, Quarterly, Monthly, Weekly, Daily, Hourly) | *Sarthak Agarwal* | 26115627 |
+| Classification | Table 17 | EthanolConcentration, Handwriting, JapaneseVowels, SelfRegulationSCP1, SelfRegulationSCP2, UWaveGestureLibrary | *Iakovos-Christos Zarkadis* | 26110104 |
 
 ---
 
@@ -83,7 +83,7 @@ For reproducibility, the notebooks also fix all random seeds, turn on determinis
 
 Open the notebook and run the sections **in order**, starting with Sections 1 and 2 (setup) in every new Colab session. Results are written to `MyDrive/TimesNet_reproduction/` on your Google Drive.
 
-### Long-term forecasting: `TimesNet_Table13_Long_Term_Forecasting.ipynb` (Rohan)
+### Long-term forecasting: `TimesNet_Table13_Long_Term_Forecasting.ipynb` (Rohan Manro)
 
 | Result | Sections to run |
 |---|---|
@@ -96,7 +96,7 @@ Open the notebook and run the sections **in order**, starting with Sections 1 an
 | Learning-rate schedules (cosine, plateau vs halving) | 12 |
 | TimesNet vs TimesNet-KANB, explainability and drift | 13 |
 
-### Short-term forecasting: `TimesNet_Table14_Short_Term_Forecasting.ipynb` (Sarthak)
+### Short-term forecasting: `TimesNet_Table14_Short_Term_Forecasting.ipynb` (Sarthak Agarwal)
 
 | Result | Sections to run |
 |---|---|
@@ -107,7 +107,7 @@ Open the notebook and run the sections **in order**, starting with Sections 1 an
 | Determinism check | 7 |
 | TimesNet vs TimesNet-KANB on M4 | 8 |
 
-### Classification: `Classification_Ours_TimesNet_<Dataset>.ipynb` (Iakovos)
+### Classification: `Classification_Ours_TimesNet_<Dataset>.ipynb` (Iakovos-Christos Zarkadis)
 
 One notebook per dataset, all with the same structure:
 
